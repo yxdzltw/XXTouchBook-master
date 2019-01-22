@@ -1,0 +1,35 @@
+{
+    "title": "XXTouch 知识库",
+    "author" : "i_82",
+    "description": "XXTouch 知识库, 开发者必备宝典.",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "XXTouch 官方网站" : "https://www.xxtouch.com"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "-lunr",
+        "back-to-top-button",
+        "sitemap",
+        "-search",
+        "search-pro",
+        "github",
+        "fontsettings",
+        "expandable-chapters",
+        "-livereload",
+        "splitter"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/Lessica/XXTouchBook"
+        },
+        "sitemap": {
+            "hostname": "https://www.xxtouch.com/"
+		},
+		"fontsettings": {
+			"family": "sans"
+        }
+    }
+}
